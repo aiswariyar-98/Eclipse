@@ -1,0 +1,18 @@
+package Important;
+
+public class Largestnumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[] = {10,20,30,40,50};
+		int max = a[0];
+		for (int num : a) {
+			if(num>max) {
+				max=num;
+			}
+		}
+		System.out.println("Largest number of array is "+max);
+
+	}
+
+}
